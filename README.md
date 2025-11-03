@@ -28,4 +28,14 @@ public class RataRataNilai {
 
         input.close();
     }
-}
+}Program ini digunakan untuk **menghitung rata-rata nilai siswa**.
+
+1. Pengguna memasukkan **jumlah siswa**.
+2. Jika jumlah ≤ 0, program menampilkan pesan error.
+3. Jika valid, program meminta **nilai tiap siswa** dengan perulangan `for`.
+4. Semua nilai dijumlahkan, lalu dihitung rata-ratanya dengan rumus:
+   [
+   \text{rata-rata} = \frac{\text{total nilai}}{\text{jumlah siswa}}
+   ]
+5. Hasil rata-rata ditampilkan ke layar, lalu `Scanner` ditutup.
+
